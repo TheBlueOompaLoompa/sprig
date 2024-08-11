@@ -27,8 +27,8 @@ This isn't being made as any sort of replacement or anything, just an alternativ
 - ~~[ ] Add network support~~
 - [ ] Add wired serial communication
 - [ ] Graphics helpers
-    - [ ] Tilemap
-    - [ ] (Maybe if necessary) Custom MicroPython firmware with native draw functions and display driver
+	- [ ] Tilemap
+	- [ ] (Maybe if necessary) Custom MicroPython firmware with native draw functions and display driver
 - Builtin Apps
 	- [ ] Software gallery (when) if networking is added
 	- [ ] Settings (Re-make for new architecture)
