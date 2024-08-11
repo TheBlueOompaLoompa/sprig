@@ -1,5 +1,5 @@
 from ili9341 import Display, color565
-from keyboard import Keyboard
+from app import Keyboard
 from machine import Pin, SPI
 from bmp_reader import BMPReader
 import framebuf
@@ -212,4 +212,3 @@ class Tilemap:
             buf.pixel(pixel, x, y)
 
         return Tilemap(sprig, reader.width, reader.height, buf)
-
