@@ -2,6 +2,7 @@ from ili9341 import color565
 from app import App, list_apps
 import os
 import json
+import gc
 
 class System:
 	def __init__(self):
@@ -28,6 +29,9 @@ class System:
 
 	def launch(self, appid: str):
 		print("Launching " + appid)
+		if self.app != None: self.app.__deinit__()
+		del self.app
+		gc.collect()
 		for app in self.apps:
 			if app['appid'] == appid:
 				self.app = __import__('/apps/' + appid + '/' + app['module']).app

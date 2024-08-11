@@ -22,10 +22,7 @@ class Sprig:
 		self.lights = [Pin(28, Pin.OUT), Pin(4, Pin.OUT)]
 		self.apps = []
 
-	def __enter__(self):
-		return self
-
-	def __exit__(self, exc_type, exc_value, traceback):
+	def __deinit__(self, exc_type, exc_value, traceback):
 		self.display.cleanup()
 		self.spi.deinit()
 		del self.fbuf
