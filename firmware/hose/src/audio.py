@@ -1,7 +1,4 @@
-from typing import TYPE_CHECKING
-if TYPE_CHECKING:
-    from sprig import Sprig
-
+from sprig import Sprig
 from machine import I2S, Pin
 import struct
 import cmath
