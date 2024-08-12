@@ -2,7 +2,10 @@ import gc
 from system import System
 
 system = System()
-system.launch('com_hackclub_sprig_Splash')
+if system.settings['splash']:
+	system.launch('com_hackclub_sprig_Splash')
+else:
+	system.launch('com_hackclub_sprig_Launcher')
 
-while system.app._loop() != True:
+while system._loop() == True:
 	pass

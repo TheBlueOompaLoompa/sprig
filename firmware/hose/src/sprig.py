@@ -12,27 +12,16 @@ class Sprig:
 		self.spi = SPI(0, baudrate=40000000, sck=Pin(18), mosi=Pin(19))
 		self.display = Display(self.spi, dc=Pin(22), cs=Pin(20), rst=Pin(26), width=160, height=128, mirror=True, bgr=False, rotation=90)
 		self.fbuf = framebuf.FrameBuffer(bytearray(160 * 128 * 2), 160, 128, framebuf.RGB565)
-
 		self.buttons = { 'w': { 'pin': Pin(5, Pin.IN, Pin.PULL_UP), 'state': False }, 'a': { 'pin': Pin(6, Pin.IN, Pin.PULL_UP), 'state': False }, 's': { 'pin': Pin(7, Pin.IN, Pin.PULL_UP), 'state': False }, 'd': { 'pin': Pin(8, Pin.IN, Pin.PULL_UP), 'state': False }, 'i': { 'pin': Pin(12, Pin.IN, Pin.PULL_UP), 'state': False }, 'j': { 'pin': Pin(13, Pin.IN, Pin.PULL_UP), 'state': False }, 'k': { 'pin': Pin(14, Pin.IN, Pin.PULL_UP), 'state': False }, 'l': { 'pin': Pin(15, Pin.IN, Pin.PULL_UP), 'state': False} }
 		self._onpress = { 'w': [], 'a': [], 's': [], 'd': [], 'i': [], 'j': [], 'k': [], 'l': []} 
 		self._onrelease = { 'w': [], 'a': [], 's': [], 'd': [], 'i': [], 'j': [], 'k': [], 'l': []} 
 		self.kb = Keyboard(self, Keyboard.LAYOUTS['QWERTY'])
-
 		self.lights = [Pin(28, Pin.OUT), Pin(4, Pin.OUT)]
-		self.apps = []
 
 	def __deinit__(self):
 		self.display.cleanup()
 		self.spi.deinit()
-		del self.fbuf
-		del self.display
-		del self.spi
-		del self.kb
-		del self._onpress
-		del self._onrelease
-		del self.buttons
-		del self.lights
-		del self.apps
+		self.fbuf = None
 		gc.collect()
 
 	def on_press(self, button: str, callback):
@@ -46,7 +35,7 @@ class Sprig:
 		self._input_toggle('a')
 		self._input_toggle('s')
 		self._input_toggle('d')
-
+        
 		self._input_toggle('i')
 		self._input_toggle('j')
 		self._input_toggle('k')

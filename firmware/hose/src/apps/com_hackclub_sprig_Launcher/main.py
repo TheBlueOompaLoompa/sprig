@@ -18,7 +18,6 @@ def setup():
 		if not("hidden" in a and a['hidden']):
 			applist.append(ListMenuItem(a['name'], activate=launch, extra=a))
 	app.data['menu'] = ListMenu(sprig, ListMenuItem('', children=applist), 12, 128-12)
-	app.data['break'] = False
 
 	draw()
 
@@ -39,15 +38,15 @@ def s():
 	draw()
 
 def l():
-	app.data['break'] = True
+	app.system.quit()
 
 def k_release():
 	app.data['menu'].activate()
 
 def launch(item: ListMenuItem):
-	app._system.launch(item.extra['appid'])
+	app.system.launch(item.extra['appid'])
 
 def loop():
-	return app.data['break']
+	pass
 
 app = App(setup, loop)

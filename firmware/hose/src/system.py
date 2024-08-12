@@ -3,38 +3,65 @@ from app import App, list_apps
 import os
 import json
 import gc
+import sys
 
 class System:
 	def __init__(self):
 		self.app: App = None
 		self.apps = list_apps()
+		self._queue = []
 		self.settings = {
-			"splash": False
+			"splash": True
 		}
+
+		self.load_settings()
+		self.save_settings()
 
 	def load_settings(self):
 		try:
-			os.stat('settings.json')
-			with open('settings.json', 'rt') as settings_file:
-				data = json.loads(settings_file.read())
-				for key in settings.keys():
+			os.stat('/settings.json')
+			with open('/settings.json') as f:
+				data = json.load(f)
+				for key in self.settings.keys():
 					if key in data:
 						self.settings[key] = data[key]
-		except Exception:
+		except OSError:
 			print("Settings file not found")
 
 	def save_settings(self):
-		with open('settings.json', 'wt') as settings_file:
-			settings_file.write(json.dumps(self.settings))
+		with open('/settings.json', 'w') as f:
+			json.dump(self.settings, f)
+		print('Settings Saved')
+		self.load_settings()
+
+	def _loop(self):
+		if self.app:
+			self.app._loop()
+		for action in self._queue:
+			name = action[0]
+			if name == 'launch':
+				appid = action[1]
+				print("Launching " + appid)
+				if self.app != None:
+					self.app.__deinit__()
+					del sys.modules['apps.' + self.app.appid + '.main']
+				del self.app
+				gc.collect()
+				for app in self.apps:
+					if app['appid'] == appid:
+						exec('import apps.' + appid + '.' + app['module'] + ' as sprigapp', {})
+						self.app = sys.modules['apps.' + appid + '.main'].app
+						self.app.appid = appid
+						self.app.system = self
+						self.app.setup()
+			elif name == 'quit':
+				return False
+		self._queue.clear()
+		return True
 
 	def launch(self, appid: str):
-		print("Launching " + appid)
-		if self.app != None: self.app.__deinit__()
-		del self.app
-		gc.collect()
-		for app in self.apps:
-			if app['appid'] == appid:
-				self.app = __import__('/apps/' + appid + '/' + app['module']).app
-				self.app._system = self
-				self.app.setup()
+		self._queue.append(['launch', appid])
+	
+	def quit(self):
+		self._queue.append(['quit'])
 	

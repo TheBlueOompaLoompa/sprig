@@ -29,7 +29,7 @@ def setup():
 		sleep(0.01)
 
 	del splash_buf
-	app._system.launch('com_hackclub_sprig_Launcher')
+	app.quit()
 
 def loop():
 	pass

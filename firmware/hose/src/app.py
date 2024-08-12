@@ -9,19 +9,14 @@ class App:
 		self.loop = loop
 		self.data = {}
 		self.sprig: Sprig = Sprig()
-		self._system = None
+		self.appid = ''
+		self.system = None
 		self._onpress = { 'w': [], 'a': [], 's': [], 'd': [], 'i': [], 'j': [], 'k': [], 'l': []} 
 		self._onrelease = { 'w': [], 'a': [], 's': [], 'd': [], 'i': [], 'j': [], 'k': [], 'l': []} 
+		print('App initialized')
 	
 	def __deinit__(self):
 		self.sprig.__deinit__()
-		del self.sprig
-		del self.setup
-		del self.loop
-		del self.data
-		del self._system
-		del self._onpress
-		del self._onrelease
 
 	def _setup(self):
 		self._onpress = { 'w': [], 'a': [], 's': [], 'd': [], 'i': [], 'j': [], 'k': [], 'l': []} 
@@ -37,6 +32,9 @@ class App:
 
 	def on_release(self, button: str, callback):
 		self._onrelease[button].append(callback)
+	
+	def quit(self):
+		self.system.launch('com_hackclub_sprig_Launcher')
 
 def list_apps():
 	apps = []
