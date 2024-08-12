@@ -1,5 +1,4 @@
 from ili9341 import Display, color565
-from app import Keyboard
 from machine import Pin, SPI
 from bmp_reader import BMPReader
 import framebuf
@@ -22,7 +21,7 @@ class Sprig:
 		self.lights = [Pin(28, Pin.OUT), Pin(4, Pin.OUT)]
 		self.apps = []
 
-	def __deinit__(self, exc_type, exc_value, traceback):
+	def __deinit__(self):
 		self.display.cleanup()
 		self.spi.deinit()
 		del self.fbuf

@@ -17,7 +17,7 @@ class System:
 			os.stat('settings.json')
 			with open('settings.json', 'rt') as settings_file:
 				data = json.loads(settings_file.read())
-				for key in [*settings]:
+				for key in settings.keys():
 					if key in data:
 						self.settings[key] = data[key]
 		except Exception:

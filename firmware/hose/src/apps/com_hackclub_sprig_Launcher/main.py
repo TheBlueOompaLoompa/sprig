@@ -15,16 +15,20 @@ def setup():
 
 	applist = []
 	for a in list_apps():
-		applist.append(ListMenuItem(a['name'], activate=launch, extra=a))
+		if not("hidden" in a and a['hidden']):
+			applist.append(ListMenuItem(a['name'], activate=launch, extra=a))
 	app.data['menu'] = ListMenu(sprig, ListMenuItem('', children=applist), 12, 128-12)
 	app.data['break'] = False
 
 	draw()
 
 def draw():
+	sprig = app.sprig
 	app.data['menu'].draw()
-	app.sprig.fbuf.text("Sprig Launcher", 0, 0, color565(0, 255, 0))
-	app.sprig.flip_buf()
+	if len(app.data['menu'].item.children) == 0:
+		sprig.fbuf.text("No apps found!", 0, 12, color565(255, 255, 255))
+	sprig.fbuf.text("Sprig Launcher", 0, 0, color565(0, 255, 0))
+	sprig.flip_buf()
 
 def w():
 	app.data['menu'].up()
@@ -46,4 +50,4 @@ def launch(item: ListMenuItem):
 def loop():
 	return app.data['break']
 
-app = App('com.hackclub.sprig.Launcher', 'Launcher', setup, loop)
+app = App(setup, loop)

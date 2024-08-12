@@ -4,9 +4,7 @@ import os
 import json
 
 class App:
-	def __init__(self, appid: str, name: str, setup, loop):
-		self.appid = appid
-		self.name = name
+	def __init__(self, setup, loop):
 		self.setup = setup
 		self.loop = loop
 		self.data = {}
@@ -14,6 +12,16 @@ class App:
 		self._system = None
 		self._onpress = { 'w': [], 'a': [], 's': [], 'd': [], 'i': [], 'j': [], 'k': [], 'l': []} 
 		self._onrelease = { 'w': [], 'a': [], 's': [], 'd': [], 'i': [], 'j': [], 'k': [], 'l': []} 
+	
+	def __deinit__(self):
+		self.sprig.__deinit__()
+		del self.sprig
+		del self.setup
+		del self.loop
+		del self.data
+		del self._system
+		del self._onpress
+		del self._onrelease
 
 	def _setup(self):
 		self._onpress = { 'w': [], 'a': [], 's': [], 'd': [], 'i': [], 'j': [], 'k': [], 'l': []} 
@@ -76,6 +84,7 @@ class ListMenu:
 		item = self._find_path(self.path, self.item)
 		view = item.children
 		self.list.draw()
+		if len(view) == 0: return
 		hovered_item = view[self.list.index]
 		status_call = hovered_item.status
 		if status_call != None:
