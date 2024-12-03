@@ -1,33 +1,49 @@
+# Uses portions from i2s examples
+# The MIT License (MIT)
+# Copyright (c) 2022 Mike Teachman
+# https://opensource.org/licenses/MIT
+
 from sprig import Sprig
 from machine import I2S, Pin
 import struct
-import cmath
+import math
 
 class Audio:
 	def __init__(self, sprig: Sprig):
 		self.sample_rate = 24000
+		self.bits = 16
 		self.audio = I2S(0,
 			sck=Pin(10), ws=Pin(11), sd=Pin(9),
 			mode=I2S.TX,
-			bits=16,
+			bits=self.bits,
 			format=I2S.MONO,
 			rate=self.sample_rate,
-			ibuf=256*8)
+			ibuf=2000)
+		self.tones: [Tone] = []
+		self.audio.irq(self._audio_callback)
+		self.sample_size_in_bytes = self.bits // 8
 
-	def make_tone(self, frequency):
-		bits = 16
+	def tone(self, wave: Wave, freq: float, length: float):
+		"""Play a tone, length in seconds"""
+		self.tones.append(Tone(wave, freq, length))
+
+	def _audio_callback(self):
+		for tone in tones:
+			if tone.wave == Wave.SINE:
+				self._sine(tone.freq)
+	
+	def _sine(self, frequency: float, time: float):
 		# create a buffer containing the pure tone samples
-		samples_per_cycle = self.sample_rate // frequency
-		sample_size_in_bytes = bits // 8
-		samples = bytearray(samples_per_cycle * sample_size_in_bytes)
-		volume_reduction_factor = 32
-		rang = pow(2, bits) // 2 // volume_reduction_factor
+		samples_per_cycle = int(self.sample_rate // frequency)
+		samples = bytearray(samples_per_cycle * self.sample_size_in_bytes)
+		volume_reduction_factor = 3
+		int_range = pow(2, self.bits) // 2 // volume_reduction_factor
 		
 		format = "<h"
 		
-		for i in range(samples_per_cycle*50):
-			sample = rang + int((rang - 1) * cmath.sin(2 * cmath.pi * i / samples_per_cycle))
-			struct.pack_into(format, samples, i * sample_size_in_bytes, sample)
+		for i in range(samples_per_cycle):
+			sample = int_range + int(math.cos(math.tau * i / samples_per_cycle) * (int_range - 1))
+			struct.pack_into('<h', samples, i * sample_size_in_bytes, sample)
 
 		self.audio.write(samples)
 
@@ -40,6 +56,12 @@ class Audio:
 
 		self.audio.write(buf)
 
+class Tone:
+	def __init__(self, wave: Wave, freq: float, length: float):
+		self.wave = wave
+		self.freq = freq
+		self.length = length
 
-
-
+class Wave:
+	SINE = 0
+	TRIANGLE = 1

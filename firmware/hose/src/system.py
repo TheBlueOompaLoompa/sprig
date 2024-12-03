@@ -1,5 +1,6 @@
 from ili9341 import color565
 from app import App, list_apps
+from machine import reset, UART
 import os
 import json
 import gc
@@ -13,9 +14,15 @@ class System:
 		self.settings = {
 			"splash": True
 		}
+		self.uart = UART(0, 115200)
+		self.uart.irq(UART.RX_ANY, handler=self._on_uart)
 
 		self.load_settings()
 		self.save_settings()
+
+	def _on_uart(self):
+		self.uart.write(self.uart.read())
+
 
 	def load_settings(self):
 		try:
@@ -64,4 +71,7 @@ class System:
 	
 	def quit(self):
 		self._queue.append(['quit'])
+	
+	def reset(self):
+		reset()
 	

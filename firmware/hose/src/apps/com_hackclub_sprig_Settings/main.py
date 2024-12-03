@@ -4,6 +4,7 @@ from sprig import Sprig
 import json
 import os
 import machine
+import audio
 
 def setup():
 	sprig = app.sprig
@@ -24,6 +25,9 @@ def setup():
 	sprig.on_release('l', l)
 
 	app.system.load_settings()
+
+	aud = audio.Audio(sprig)
+	aud.tone(audio.Wave.SINE, 440, 1)
 
 	draw()
 

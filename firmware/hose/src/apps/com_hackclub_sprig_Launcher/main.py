@@ -11,6 +11,7 @@ def setup():
 	sprig.on_press('w', w)
 	sprig.on_press('s', s)
 	sprig.on_press('l', l)
+	sprig.on_press('i', i)
 	sprig.on_release('k', k_release)
 
 	applist = []
@@ -39,6 +40,9 @@ def s():
 
 def l():
 	app.system.quit()
+
+def i():
+	app.system.reset()
 
 def k_release():
 	app.data['menu'].activate()
