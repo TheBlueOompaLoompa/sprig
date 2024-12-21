@@ -1,4 +1,4 @@
-micropython-rp2-stubs
+micropython-rp2-rpi_pico_w-stubs
 adafruit-ampy
 mpy-cross
 watchdog
