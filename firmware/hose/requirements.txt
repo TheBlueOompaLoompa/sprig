@@ -3,3 +3,4 @@ adafruit-ampy
 mpy-cross
 watchdog
 setuptools
+littlefs-python
