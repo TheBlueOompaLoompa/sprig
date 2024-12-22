@@ -1,5 +1,5 @@
 from ili9341 import color565
-from app import App, ListMenu, ListMenuItem, list_apps, Sprig
+from app import App, Sprig
 import json
 import os
 import time
