@@ -1,6 +1,8 @@
 from ili9341 import color565
 from app import App, list_apps
-from machine import reset, UART
+from machine import reset
+#import usb.device
+#from usb.device.cdc import CDCInterface
 import os
 import json
 import gc
@@ -14,15 +16,18 @@ class System:
 		self.settings = {
 			"splash": True
 		}
-		self.uart = UART(0, 115200)
-		self.uart.irq(UART.RX_ANY, handler=self._on_uart)
+
+		#cdc = CDCInterface()
+		#cdc.init(timeout=0)  # zero timeout makes this non-blocking, suitable for os.dupterm()
+
+		# pass builtin_driver=True so that we get the built-in USB-CDC alongside,
+		# if it's available.
+		#usb.device.get().init(cdc, builtin_driver=True)
+
+		
 
 		self.load_settings()
 		self.save_settings()
-
-	def _on_uart(self):
-		self.uart.write(self.uart.read())
-
 
 	def load_settings(self):
 		try:

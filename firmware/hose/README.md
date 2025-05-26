@@ -28,9 +28,19 @@ This isn't being made as any sort of replacement or anything, just an alternativ
 - [ ] Add wired serial communication
 - [ ] Graphics helpers
 	- [ ] Tilemap
-	- [ ] (Maybe if necessary) Custom MicroPython firmware with native draw functions and display driver
 - Builtin Apps
 	- [ ] Software gallery (when) if networking is added
-	- [ ] Settings (Re-make for new architecture)
+	- [x] Settings (Re-make for new architecture)
 	- [ ] Getting Started (Finish)
 	- [ ] Dev Tools (Re-make or remove)
+- Custom MicroPython Firmware
+	- [ ] Display driver
+		- [ ] Image loader
+		- [ ] SD Card Implementation
+	- [ ] Audio driver
+	- [ ] Easy input driver
+	- [ ] Easy LEDs driver
+	- [ ] Remove access to potentially dangerous APIs
+		- [ ] WiFi/BT (Replace with custom limited API)
+		- [ ] File IO (Replace with custom limited API)
+		- [ ] Direct GPIO access (limit to only unused pins)
