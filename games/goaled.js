@@ -1,8 +1,9 @@
 /*
 @title: Goaled
-@tags: ['catch']
-@addedOn: 2022-09-24
+@description: In this game, you are the purple player, the ball is the gray circle, and the goal is the yellow rectangle. Your goal is to push the ball into the goal, the goal will randomly teleport every 3 seconds.
 @author: Ronan Verma
+@tags: []
+@addedOn: 2022-09-24
 
 In this game, you are the purple player, the ball is the gray circle, and the goal 
 is the yellow rectangle. Your goal is to push the ball into the goal, the goal will

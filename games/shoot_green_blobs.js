@@ -1,8 +1,9 @@
 /*
 @title: shoot_green_blobs
-@tags: ['classic']
-@addedOn: 2022-09-07
+@description: "Shoot Green Blobs" is a retro-styled shooting game where players control a character to eliminate waves of enemy boxes floating above them.
 @author: otterly-otter
+@tags: ['retro']
+@addedOn: 2022-09-07
 
 */
 

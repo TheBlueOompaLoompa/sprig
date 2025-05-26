@@ -1,11 +1,12 @@
 /*
+@title: Chess Puzzle
+@description: Chess Puzzle is a strategic puzzle game where you control a chess knight, maneuvering it around a board filled with obstacles to reach a goal marked by a pink and purple box.
+@author: Silver Canvas
+@tags: ["puzzle", "strategy"]
+@addedOn: 2024-06-25
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Chess Puzzle
-@author: Silver Canvas
-@tags: []
-@addedOn: 2024-06-25
 */
 
 const rook = "r"

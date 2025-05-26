@@ -1,8 +1,9 @@
 /*
 @title: black_jack
-@tags: ['classic']
-@addedOn: 2022-12-21
+@description: BlackJack is a retro-themed digital card game that simulates the casino experience. Players start with a balance of 500, adjust their bets, and aim to beat the dealer by having a hand value closest to 21 without exceeding it. With options to hit, stand, or double down, players strategize to maximize their winnings while managing the risk of busting.
 @author: xevaly
+@tags: ['retro']
+@addedOn: 2022-12-21
 
 Before the game starts, the player can adjust their bet size by pressing the "I" key to increase the bet size and the "K" key to decrease it.
 

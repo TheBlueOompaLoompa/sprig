@@ -1,12 +1,13 @@
 /*
+@title: Escape Arcade Prison!
+@description: "Escape Arcade Prison!" is a timed puzzle game where players must escape from a life sentence in arcade prison within 5 minutes. The player, caught for committing Arcade fraud, needs to navigate through various obstacles and unlock doors using keys while avoiding guards and deactivating lasers.
+@author: Felix Gao
+@tags: ['puzzle']
+@addedOn: 2024-07-29
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
 
-@title: Escape Arcade Prison!
-@author: Felix Gao
-@tags: ['puzzle', 'prison']
-@addedOn: 2024-07-29
 */
 
 // People lol

@@ -1,7 +1,8 @@
 /*
 @title: Astroid World
+@description: Astroid World is an action-packed game where you must survive and shoot as many asteroids as possible. Players navigate a spaceship to dodge and shoot incoming threats in a bid to score higher.
 @author: Shaurya
-@tags: ["space"]
+@tags: []
 @addedOn: 2024-08-06
 */
 

@@ -1,8 +1,9 @@
 /*
-@title: Maise 
+@title: Maise
+@description: "Maise" is a maze-solving game where the objective is to navigate through intricate mazes and reach the end without encountering hazardous fires.
+@author: UrMma
 @tags: []
 @addedOn: 2023-07-24
-@author: UrMma
 
 Instructions:
 1. Use WASD keys to navigate around mases to reach the PR pad.

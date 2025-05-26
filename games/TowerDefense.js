@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: Tower Defense
+@description: "Tower Defense" by Guerriacan is a strategy game where players must defend their flag from waves of incoming enemies by strategically placing tanks on the map. Players purchase and manage tanks to fend off advancing threats.
 @author: Guerriacan
 @tags: []
 @addedOn: 2024-08-13
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 const guiCenter = "0"

@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: Space Shooter
+@description: Space Shooter is a game where players defend against enemies descending from above in a space-themed environment. Players control their ship to dodge and shoot enemies, aiming to achieve the highest score possible before the game ends.
 @author: valeriuv
 @tags: []
 @addedOn: 2024-07-26
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 const player = "p";

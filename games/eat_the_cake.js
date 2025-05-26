@@ -1,8 +1,9 @@
 /*
 @title: Eat the cake
-@tags: ['beginner', 'hackable']
-@addedOn: 2022-10-13
+@description: Choose between eating cake or broccoli - will you be healthy or not?
 @author: _klyap_
+@tags: []
+@addedOn: 2022-10-13
 */
 
 const player = "p";

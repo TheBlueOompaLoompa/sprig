@@ -1,9 +1,10 @@
 /* 
 @title: maze_game_starter
+@description: Maze Game Starter, by Cheru Berhanu, is a cooperative puzzle game where two players, represented by red and blue characters, navigate through a maze to reach color-specific goals. Players must work together by avoiding traps, pressing certain buttons with specific characters, and making blocks pushable to progress. The game's main focus is on having a fun, cooperative experience with friends.
 @author: Cheru Berhanu
 @tags: []
-@img: ""
 @addedOn: 2023-08-08
+@img: ""
 */
 
 const player = "p";

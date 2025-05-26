@@ -1,8 +1,9 @@
 /*
 @title: spongebob_squaremaze
-@tags: ['maze']
-@addedOn: 2023-01-26
+@description: "Spongebob SquareMaze" is a puzzle game where the objective is to defeat all enemies to progress through levels. The game features new enemies and larger maps, offering a challenging experience as players navigate through various maze-like environments.
 @author: Jainam_Jain
+@tags: ['puzzle']
+@addedOn: 2023-01-26
 
 Instructions: 
 

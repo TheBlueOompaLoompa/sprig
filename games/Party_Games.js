@@ -1,12 +1,13 @@
 /*
+@title: Party Games
+@description: "Party Games" is a multiplayer game designed to be played in person, where the console is passed around among players. In the current available game mode, SPY, all players receive a common word except one spy who has to guess the word by fitting into the conversation. Each player takes their turn describing words related to the given word while the SPY attempts to deduce the correct word before time runs out.
+@author: iambodha
+@tags: ['multiplayer']
+@addedOn: 2024-06-22
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Party Games
-@author: iambodha
-@tags: ['multiplayer']
 @img: ""
-@addedOn: 2024-06-22
 */
 
 const background = "b";

@@ -1,11 +1,12 @@
 /*
+@title: Celeste: Sprig Edition
+@description: Celeste: Sprig Edition is a challenging platformer game inspired by the 2018 game Celeste by Extremely OK Games. It features difficult levels with elements like strawberries, dashing, and spikes, aiming to capture the essence of the original game on a new platform.
+@author: Amber
+@tags: ['platformer']
+@addedOn: 2024-06-14
 Celeste: Sprig Editon is directly inspired by https://celestegame.com and is a version made especially for the Sprig!
 
-@title: Celeste: Sprig Edition
-@author: DillonB07
-@tags: ["platformer"]
 @img: ""
-@addedOn: 2024-06-14
 */
 
 const strawberry = "a"

@@ -1,12 +1,13 @@
 /*
+@title: SOUL STEALER: The Vengful Spirit
+@description: SOUL STEALER: The Vengeful Spirit is a 2D horror game about a wealthy man named Darius, who must escape the clutches of an evil spirit after a fatal car crash. Navigate through eerie environments as you help Darius find his way to the afterlife.
+@author: Gavin Jent
+@tags: []
+@addedOn: 2024-05-20
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: SOUL STEALER: The Vengful Spirit
-@author: Gavin Jent
-@tags: []
 @img: ""
-@addedOn: 2024-05-20
 */
 
 const player = "p"

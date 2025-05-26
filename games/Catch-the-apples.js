@@ -1,10 +1,11 @@
 /*
+@title: Catch the apples
+@description: "Catch the Apples" is an endless game where the goal is to catch apples falling from the sky while avoiding ladybugs. Each apple caught increases your score, while each ladybug caught decreases it. Navigate your basket left or right to maximize your score and enjoy the challenge!
+@author: Jack
+@tags: ["endless" , "timed"]
+@addedOn: 2024-01-13
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
-@title: Catch the apples
-@author: Jack
-@tags: ['endless', 'catch']
-@addedOn: 2024-01-13
 
 Instructions:
 Catch as many apples as you can and avoid the bugs. Each apple caught will increase the score by 1, 

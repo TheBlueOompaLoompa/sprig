@@ -1,11 +1,12 @@
 /*
+@title: Stickman
+@description: "Stickman" is a game where players navigate levels to collect diamonds while avoiding enemies. The objective is to successfully collect all the diamonds in each level, progressing through increasingly challenging environments. Players can use portals to teleport across the map in the later levels.
+@author: Benjamin Faershtein
+@tags: []
+@addedOn: 2024-07-26
 STICKMAN
 Part 1
 
-@title: Stickman
-@author: Benjamin Faershtein
-@tags: ['stickman']
-@addedOn: 2024-07-26
 */
 
 const player = "p"

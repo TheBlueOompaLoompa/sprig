@@ -1,11 +1,12 @@
 /*
+@title: Crusader
+@description: Crusader is a challenging platformer game where players navigate through levels filled with obstacles like spikes and lava to collect coins and keys. Players must strategically jump and traverse stone walls while avoiding deadly traps to unlock portals and advance to new stages. The game offers enticing difficulty with a need for precision and timing, capturing the essence of classic platformers.
+@author: Skyfall
+@tags: ['platformer']
+@addedOn: 2024-07-18
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Crusader
-@author: Skyfall
-@tags: ["platformer"]
-@addedOn: 2024-07-18
 */
 
 const player = "p"

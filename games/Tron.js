@@ -1,8 +1,9 @@
 /*
 @title: Tron
+@description: "Tron" is a multiplayer adaptation of the classic light cycle game, featuring two players competing to outmaneuver each other by leaving trails that their opponent must avoid. Players must navigate a grid without colliding with trails or walls, aiming to force their opponent into an error to win.
+@author: Robert Carmen
 @tags: ['multiplayer']
 @addedOn: 2022-10-30
-@author: Robert Carmen
 
 An adaptation of the classic game, Tron. Enjoy!
 v0.2

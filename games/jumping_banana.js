@@ -1,11 +1,12 @@
 /*
+@title: Jumping banana
+@description: Jumping Banana is an endless action game where you navigate a character by jumping to avoid colliding with blocks of dirt. Players can execute double and triple jumps to progress as far as possible.
+@author: Ernests
+@tags: ['endless','action']
+@addedOn: 2024-07-06
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Jumping banana
-@author: Ernests
-@tags: ['endless', 'dodge']
-@addedOn: 2024-07-06
 
 Movement:
   w - jump

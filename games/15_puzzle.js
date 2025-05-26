@@ -1,8 +1,9 @@
 /*
 @title: 15 puzzle
-@tags: ['advanced']
-@addedOn: 2022-07-18
+@description: The "15 Puzzle" is a classic sliding puzzle game where the objective is to arrange numbered squares into sequential order, leaving one square empty. Players move tiles by sliding them into the empty space, trying to achieve the configuration shown in the instructions. It's a strategy and logic puzzle aimed at testing spatial reasoning and problem-solving skills.
 @author: maggie
+@tags: ["puzzle"]
+@addedOn: 2022-07-18
 
 INSTRUCTIONS:
 use WASD to move squares next to the empty square.

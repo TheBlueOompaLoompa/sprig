@@ -1,8 +1,9 @@
 
 /* 
 @title: hidden_maze
+@description: "Hidden Maze" is a puzzle game where players navigate through invisible mazes, seeing only their current position and the end goal.
 @author: Rylan Berry
-@tags: ['logic']
+@tags: ['puzzle']
 @addedOn: 2023-05-06
 */
 

@@ -1,11 +1,12 @@
 /*
+@title: Treasure-Hunt-Adventure
+@description: Treasure-Hunt-Adventure is a puzzle game where the player takes on the role of a pirate navigating jungles and beaches to transport a gem back to their ship. Players must strategically move boxes to assist in guiding the gem to its destination.
+@author: Sophia E
+@tags: ['puzzle']
+@addedOn: 2024-04-05
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Treasure-Hunt-Adventure
-@author: Sophia E
-@tags: ["puzzle"]
-@addedOn: 2024-04-05
 */
 
 const player = "p";

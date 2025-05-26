@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: Hallowed Knight
+@description: Hallowed Knight is inspired by the indie metroidvania Hollow Knight! My version is comparatively very small, but features a non-linear world map with an unlockable movement ability (a dash, like the Mothwing Cloak from Hollow Knight), enemies and hazards (only a few), two areas ("crossroads" and "greenpath"), and collectibles (grubs, also from Hollow Knight). 
 @author: phthallo
 @tags: []
 @addedOn: 2024-07-09
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 /* Definitely not inspired by Hollow Knight.

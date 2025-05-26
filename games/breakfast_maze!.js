@@ -1,8 +1,9 @@
 
 /* 
 @title: breakfast_maze!
+@description: "Breakfast Maze" is a puzzle game where a lonely splotch of jelly/jam navigates a maze of toast to reach a splotch of peanut butter. Players must find keys to unlock secret areas and use portals to travel through the maze, adding layers of strategy to this charming breakfast-themed challenge.
 @author: Alex
-@tags: ['sokoban-style']
+@tags: ['puzzle']
 @addedOn: 2023-08-01
 */
 

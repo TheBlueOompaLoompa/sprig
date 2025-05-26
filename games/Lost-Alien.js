@@ -1,8 +1,9 @@
 /*
 @title: Lost Alien
+@description: "Lost Alien" is a maze-themed game where players guide a stranded alien back to its spaceship. Navigate through challenging mazes filled with obstacles and portals to reach your destination. The game involves strategic puzzle-solving to overcome barriers and find the correct path.
 @author: Joseph Smesny
-@addedOn: 2024-05-20
 @tags: []
+@addedOn: 2024-05-20
 @img: ""
 */
 

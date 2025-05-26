@@ -1,11 +1,12 @@
 /*
+@title: TicTacToe
+@description: A simple verision of the game tic-tac-toe! Play with a friend and try to place three of your shape in a row before your opponent does.
+@author: Benjamin
+@tags: ['multiplayer']
+@addedOn: 2024-07-01
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: TicTacToe
-@author: Benjamin
-@tags: ['tictactoe','tic-tac-toe']
-@addedOn: 2024-07-01
 */
 
 const player = "p";

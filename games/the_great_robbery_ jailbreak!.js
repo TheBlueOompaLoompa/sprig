@@ -1,11 +1,12 @@
 /*
+@title: jailbreak :)
+@description: "Jailbreak :)" is a multiplayer escape game where players control robbers trying to reach the finish line while navigating through maze-like levels and avoiding obstacles such as walls and gates. Each player can collect keys to unlock gates, allowing them to progress further in the game. The game continues across multiple levels, where players earn points by reaching the finish line.
+@author: navya
+@tags: ['multiplayer']
+@addedOn: 2024-06-26
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: jailbreak :)
-@author: navya 
-@tags: ["2_player"]
-@addedOn: 2024-06-26
 */
 
 

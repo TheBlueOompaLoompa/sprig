@@ -1,8 +1,9 @@
 /*
 @title: the_invisible_man
-@tags: ['puzzle-score']
-@addedOn: 2022-11-14
+@description: In this game, you have to collect coins. The catch? You are invisible! (the player is invisible, but it is there somewhere)
 @author: Gárdonyi Bálint (Valentine)
+@tags: ['puzzle']
+@addedOn: 2022-11-14
 MOVEMENT: WASD
 In this game, you have to collect coins. The catch? You are invisible! (the player is invisible, but it is there somewhere)
 You have to find, and keep track of the location of your character. Or just press random keys, and hope it works out...

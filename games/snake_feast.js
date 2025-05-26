@@ -1,9 +1,10 @@
 /*
 @title: Snake Feast
+@description: A version of snake where the snake isn't continuously moving.
 @author: chaste
 @tags: []
-@img: ""
 @addedOn: 2024-06-07
+@img: ""
 */
 
 const snakeHead = "H";

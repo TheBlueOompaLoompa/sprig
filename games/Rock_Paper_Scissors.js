@@ -1,8 +1,9 @@
 /*
 @title: Rock, Paper, Scissors!
-@tags: ['classic']
-@addedOn: 2022-09-13
+@description: Rock, Paper, Scissors! is a retro-style digital version of the classic hand game. Players choose between rock, paper, and scissors using movement keys and confirm their selection to face off against a randomly selected enemy move.
 @author: ezefranca
+@tags: ['retro']
+@addedOn: 2022-09-13
 */
 const player = "p";
 

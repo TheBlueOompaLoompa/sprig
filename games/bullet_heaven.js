@@ -1,7 +1,8 @@
 /*
 @title: Bullet Heaven
-@author: OtterDev 
-@tags: ["shooter"]
+@description: "Bullet Heaven" is an action-packed game by OtterDev where players must strategically shoot a boss while skillfully dodging incoming bullets.
+@author: OtterDev
+@tags: ['action']
 @addedOn: 2024-07-30
 */
 

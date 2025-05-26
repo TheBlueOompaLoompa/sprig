@@ -1,8 +1,9 @@
 /*
-@title: the journey of the box[a sokoban saga] 
-@tags: ['sokoban-style']
-@addedOn: 2023-04-15
+@title: the journey of the box[a sokoban saga]
+@description: "The Journey of the Box: A Sokoban Saga" is a puzzle game where players must move blue boxes into designated holes. In addition to managing box placement, some levels require holding down specific buttons with the boxes to make walls disappear, adding an extra layer of strategy to the challenges.
 @author: Ethan Francis
+@tags: ['puzzle']
+@addedOn: 2023-04-15
 //INSTRUCTIONS
  Get all blue boxes into the holes 
  if there is buttons, boxes need to be on the buttons

@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
-@title: Banana runner 
+@title: Banana runner
+@description: "Banana Runner" is a strategic movement puzzle game where the player navigates through levels to reach a portal while avoiding moving knives. The player must also collect as many keys as possible, using clever maneuvers to bypass obstacles like trees.
 @author: Aaron Lei
 @tags: []
 @addedOn: 2024-07-11
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 const player = "p"
 const knife = "k"

@@ -1,7 +1,8 @@
 /*
 @title: TheMazeGame
+@description: TheMazeGame is a suspenseful puzzle game where players navigate through mazes while being pursued by monsters. With limited vision, players must strategically utilize a flash ability to temporarily stun their enemies while finding their way to the exit.
 @author: Navrit Angurana
-@tags: ['advanced']
+@tags: []
 @addedOn: 2024-02-17
 
 First time? Check out the tutorial game:

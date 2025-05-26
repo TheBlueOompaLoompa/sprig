@@ -1,8 +1,9 @@
 
 /* 
 @title: Two_Player_Tetris
+@description: Two_Player_Tetris is a competitive version of Tetris where you get points by surviving longer than your opponent.
 @author: Spectral
-@tags: ['classic', 'multiplayer']
+@tags: ['multiplayer','retro']
 @addedOn: 2023-09-11
 */
 

@@ -1,8 +1,9 @@
 /*
 @title: racer
-@tags: ['logic']
-@addedOn: 2022-11-08
+@description: "Racer" is a classic puzzle game port where players switch lanes to avoid obstacles and reach the goal.
 @author: Snow
+@tags: ['puzzle']
+@addedOn: 2022-11-08
 */
 
 // WHEN ON LEVEL SELECT SCREEN: To move to next level, click L. To move to previous level, click J. To select, click I.

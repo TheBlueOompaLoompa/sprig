@@ -1,7 +1,8 @@
 /*
 @title: Fighing Engine
+@description: "Fighting Engine" is a 2-player fighting game inspired by rock'em sock'em robots and Street Fighter. Players can engage in battles by dodging, punching, and using the "hadouken" attack to knock out their opponents. The game emphasizes strategic movement and timing to outplay your friend for victory.
 @author: James Lian
-@tags: ['fighting', 'multiplayer', '2player']
+@tags: ['action','multiplayer']
 @addedOn: 2024-07-22
 
 A simple 2-player fighting game engine, a little like rock'em sock'em robots and Street Fighter.

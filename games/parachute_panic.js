@@ -1,8 +1,9 @@
 /*
 @title: parachute panic(in sprig)
-@tags: ['logic']
-@addedOn: 2023-06-26
+@description: Parachute Panic is a puzzle game inspired by an old Java game, where players must dodge obstacles like clouds and UFOs while collecting tokens to increase their score. The aim is to stay airborne as long as possible and safely land on boats to finish the game, avoiding penalties from landing in water.
 @author: Riston Rodrigues
+@tags: ['puzzle']
+@addedOn: 2023-06-26
 tried to make a copy of an old java game parachute panic for sprig
 
 Play:-

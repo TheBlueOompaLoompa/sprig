@@ -1,8 +1,9 @@
 /*
 @title: flappy_bird_but_no_gravity_and_worse
-@tags: ['WIP', 'endless']
-@addedOn: 2022-09-16
+@description: It's just like flappy bird, but without gravity. Try to survive as long as you can!
 @author: sam liu
+@tags: ['endless']
+@addedOn: 2022-09-16
 */
 
 const player = "p";

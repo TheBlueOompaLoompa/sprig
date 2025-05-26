@@ -1,11 +1,12 @@
 /*
+@title: Timing
+@description: "Timing" is an action-packed game where a stickman battles bosses by shooting while skillfully dodging incoming attacks. Players must defeat all bosses without taking any hits to succeed. The game's focus lies in timing movements and attacks to outmaneuver the challenging bosses.
+@author: Darsh Gupta
+@tags: []
+@addedOn: 2024-06-24
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Timing
-@author: Darsh Gupta 
-@tags: []
-@addedOn: 2024-06-24
 */
 
 const player = "p"

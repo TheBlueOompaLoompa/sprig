@@ -1,8 +1,9 @@
 
 /* 
 @title: ROOM
+@description: ROOM is a DOOM-inspired 3D shooter where you are trapped in a small, claustrophobic space and must survive against enemies. Your health slowly drains over time, requiring you to collect medkits while avoiding "spin-y people" who are not your allies. The goal is to survive as long as possible in an environment where navigating tight spaces and resource management are key.
 @author: davnotdev
-@tags: ['advanced']
+@tags: []
 @addedOn: 2023-06-27
 */
 

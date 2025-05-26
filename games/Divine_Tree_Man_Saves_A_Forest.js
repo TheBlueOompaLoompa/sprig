@@ -1,4 +1,9 @@
 /*
+@title: Divine Tree Man Saves A Forest
+@description: Divine Tree Man Saves A Forest is a puzzle-based adventure game where you play as a divine tree man tasked with saving the forest from threats like deadly fungus and forest fires. You use the Zire, a special tool, to manipulate the environment by pushing fungi into fires and interacting with walls to progress through different levels. The game features seven challenges, culminating in a victory against the evil force called Ezir to restore the forest to its natural state.
+@author: Rohan Pani (13)
+@tags: []
+@addedOn: 2024-07-26
 The story of this game is to save the forest from invaders like a deadly fungus, Forest fires, and the Zire that started them. 
 Remember to look carefully at each level before startinng them. Getting the pushable items stuck softlocks the game and you must restart from the beggining
 by pressing i.
@@ -12,10 +17,6 @@ Mechanics:
 There are 7 levels with the 7th one being an end screen.
 The mechanics are difficult to use, but once you get the hang of it you could finish the game super quickly.
 
-@title: Divine Tree Man Saves A Forest
-@author: Rohan Pani (13)
-@tags: ["sprig"]
-@addedOn: 2024-07-26
 Finished on July 13, 2024.
 */
 

@@ -1,11 +1,12 @@
 /*
+@title: Get the GREEN!
+@description: "Get the GREEN!" is an endless game where the objective is to quickly reach the green square without touching the red before the timer runs out. Players navigate through randomly placed obstacles, aiming to advance as many levels as possible.
+@author: Dhyan99
+@tags: ['endless']
+@addedOn: 2024-06-28
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Get the GREEN!
-@author: Dhyan99
-@tags: ["endless"]
-@addedOn: 2024-06-28
 */
 
 const player = "p"

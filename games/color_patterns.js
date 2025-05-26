@@ -1,8 +1,9 @@
 /*
 @title: color_patterns
-@tags: ['logic']
-@addedOn: 2022-07-14
+@description: "Color Patterns" is a puzzle game where players are tasked with replicating specific color patterns on a grid. By moving a character on the board, players can change tile colors to match given patterns, progressing through levels as they succeed. The challenge lies in figuring out the correct sequence to duplicate the provided patterns.
 @author: brian
+@tags: ['puzzle']
+@addedOn: 2022-07-14
 
 Instructions:
 

@@ -1,8 +1,9 @@
 /*
 @title: Stopwatch
-@tags: ['utility', 'clock', 'timekeeping']
-@addedOn: 2024-06-26
+@description: A stopwatch. You can start, stop, reset, and record split times.
 @author: DominantDuck
+@tags: ['utility','timed']
+@addedOn: 2024-06-26
 */
 let startTime = 0;
 let elapsedTime = 0;

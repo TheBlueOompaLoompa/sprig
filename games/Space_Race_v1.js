@@ -1,11 +1,12 @@
 /*
+@title: Space Race v1
+@description: "Space Race v1" by Ler is a multiplayer action game where two players navigate their spaceships through falling gates while collecting powerups. Each player starts with five lives and must avoid obstacles like asteroids while using powerups to gain advantages or hinder the opponent. The game increases in difficulty as the gates speed up over time, and the match ends when a player loses all their lives.
+@author: Ler
+@tags: ['action','multiplayer']
+@addedOn: 2024-06-28
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Space Race v1
-@author: Ler
-@tags: ['catch', 'dodge', 'multiplayer', 'WIP']
-@addedOn: 2024-06-28
 */
 
 // -- Space Race --

@@ -1,7 +1,8 @@
 /*
 @title: Maze Banana 2-Player
-@tags: []
+@description: Compete against a friend to see which of you can reach the exit of the maze first! You'll have 60 seconds to compete as many mazes as possible, and whoever has the most points at the end wins.
 @author: Rushil Chopra
+@tags: []
 @addedOn: 2024-08-05
 */
 const player1 = "p"; // First player

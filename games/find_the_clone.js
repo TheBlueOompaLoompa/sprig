@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: find_the_clone
+@description: "Find the Clone" is a puzzle game where players must differentiate between nearly identical boxes to identify the odd one out and push it to a designated goal.
 @author: TheGoldenBlock
 @tags: ['puzzle']
 @addedOn: 2024-01-21
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 const player = "p"

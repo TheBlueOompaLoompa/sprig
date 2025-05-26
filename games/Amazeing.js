@@ -1,12 +1,13 @@
 /*
+@title: Amazing
+@description: "Amazing" is a maze-based puzzle game inspired by "Maze_Runner3" by Charlie. Players navigate through complex mazes, collecting keys to unlock blocked paths and reaching coins to progress to the next level. The game challenges players to strategically plan their moves to solve each maze.
+@author: Dilon
+@tags: []
+@addedOn: 2024-06-07
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Amazing
-@author: Dilon
-@tags: []
 @img: ""
-@addedOn: 2024-06-07
 
 Mechanics inspired by Maze_Runner3 by Charlie
 */

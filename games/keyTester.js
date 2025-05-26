@@ -1,9 +1,10 @@
 {}
 /*
 @title: keyTester
-@tags: ['tool']
-@addedOn: 2023-01-12
+@description: The game "keyTester" is a utility tool designed to visually test if your keyboard buttons are functioning correctly.
 @author: devramsean0
+@tags: ['utility']
+@addedOn: 2023-01-12
 */
 // Music
 const beep = tune`

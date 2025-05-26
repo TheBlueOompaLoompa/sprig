@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: love-bug
+@description: "Love-bug" is a game about a small bug on a mission to collect hearts while avoiding getting its heart broken by encountering broken hearts.
 @author: b3arora
 @tags: []
 @addedOn: 2024-08-13
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 //too many bombs

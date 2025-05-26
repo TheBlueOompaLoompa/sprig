@@ -1,8 +1,9 @@
 /*
 @title: Candy Rush
-@tags: ['sokoban-style']
-@addedOn: 2022-10-07
+@description: Candy Rush is a puzzle game where players must push candies into mouths on a grid while navigating around walls. It involves strategic movement to cover all target tiles with candies to progress through levels.
 @author: Tasbia Uddin
+@tags: ['puzzle']
+@addedOn: 2022-10-07
 */
 
 

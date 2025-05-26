@@ -1,8 +1,9 @@
 /*
 @title: Box Jump
-@tags: ['puzzle-score']
+@description: "Box Jump" is a runner game where players must jump over obstacles to gain points.
+@author: Elijah Schneider
+@tags: ['puzzle']
 @addedOn: 2022-12-19
-@author: Elijah Schneider 
 
 Instructions:
 

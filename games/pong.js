@@ -1,8 +1,9 @@
 /*
 @title: pong
-@tags: ['classic']
-@addedOn: 2022-09-07
+@description: This game is a retro version of Pong featuring a simplistic AI opponent to increase the challenge.
 @author: neesh
+@tags: ['retro']
+@addedOn: 2022-09-07
 */
 
 const player1 = "1";

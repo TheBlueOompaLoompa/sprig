@@ -1,8 +1,9 @@
 /*
 @title: Galactic Coconuts
-@tags: ['dodge']
-@addedOn: 2023-10-30
+@description: "Galactic Coconuts" is an action game inspired by asteroids, where players must avoid falling coconuts from the sky. Points are earned by shooting normal coconuts and gaining bonus points from golden coconuts, with the aim to achieve the highest score possible. Players maneuver left and right to dodge coconuts while shooting to clear a path forward.
 @author: kcoderhtml (@kieran on slack)
+@tags: ['action']
+@addedOn: 2023-10-30
 Keys: 
 - J to fire
 - A to move left

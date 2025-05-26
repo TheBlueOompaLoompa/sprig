@@ -1,9 +1,10 @@
 /*
 @title: Sprig-Edit
+@description: Sprig-Edit, developed by Colack, is a basic text editor for Sprig, allowing users to select from 56 characters and place them on a 16x15 grid to create words and sentences. It is designed as a utility tool rather than a traditional game.
 @author: Colack
 @tags: ['utility']
-@img: ""
 @addedOn: 2024-05-22
+@img: ""
 
 This is Sprig-Edit, a basic text editor for Sprig.
 

@@ -1,4 +1,9 @@
 /*
+@title: Memory Game
+@description: Memory Game is a card-matching game where you try to match pairs of fruits in as few guesses as possible.
+@author: uped
+@tags: []
+@addedOn: 2024-06-18
 Memory Game!
 pair matching cards to earn score
 
@@ -6,10 +11,6 @@ Controls:
 wasd to move
 i to interact
 
-@title: Memory Game
-@author: uped
-@tags: []
-@addedOn: 2024-06-18
 */
 
 const question_mark = "?"

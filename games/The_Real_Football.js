@@ -1,7 +1,8 @@
 /*
 @title: the real football
+@description: "The Real Football" is a nostalgic sports game inspired by old keypad phone football games, aiming to evoke a 90's vibe. Players must juggle a football and navigate it through obstacles to reach the goal, resembling the mechanics of Sokoban. The game offers multiple levels of increasing challenge, incorporating a time limit and retro-style graphics.
 @author: nikhil
-@tags: ['soccer','football']
+@tags: ['sports']
 @addedOn: 2024-07-08
 */
 

@@ -1,11 +1,12 @@
 /*
+@title: CaveEscape
+@description: CaveEscape is a strategy game where players use a combination of skills such as attacking, gambling for resources, and casting spells to defeat enemies and escape from a cave. Players must strategically manage their health and mana while facing enemy attacks after every action they take. The goal is to successfully navigate through levels, utilizing magic or relying on health to overcome adversaries and reach freedom.
+@author: Michael Taylor
+@tags: ["strategy" , "action" , "real-time"]
+@addedOn: 2024-02-16
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: CaveEscape
-@author: Michael Taylor
-@tags: []
-@addedOn: 2024-02-16
 
 use WASD to move the cursor and J to select and use an action, the enemy will automatically deal damage to you after every action you take
 */

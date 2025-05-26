@@ -1,8 +1,9 @@
 /*
 @title: Gravity Box
+@description: It's about a box that responds to gravity. You get to rotate the world to make the box fall in the direction you want till you reach your goal.
+@author: Josias Aurel
 @tags: []
 @addedOn: 2023-10-18
-@author: Josias Aurel
 */
 
 const player = "p"

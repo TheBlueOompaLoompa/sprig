@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: Dodgy Day
+@description: Dodgy Day is a game about dodging obstacles for as long as possible. The player navigates the game area to avoid bombs that move across the screen, with increasing difficulty over time. Accumulating "hearts" maintains player health, and a special focus is on avoiding blue circles from turning red, which causes an instant loss.
 @author: Neelesh Chevuri
 @tags: []
 @addedOn: 2024-07-26
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 const player = 'p'

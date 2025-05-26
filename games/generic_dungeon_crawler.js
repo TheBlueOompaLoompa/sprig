@@ -1,8 +1,9 @@
 /*
 @title: generic_dungeon_crawler
-@tags: ['dungeon']
-@addedOn: 2022-10-24
+@description: "Generic Dungeon Crawler" is an adventure game by Lingdong Huang where players navigate through procedural dungeons, battle various enemies, and manage their inventory for survival. The objective is to explore the dungeon, defeat enemies, collect loot, and successfully progress through each area. Players can level up, trade in shops, and make strategic decisions to enhance their chances of survival in the dungeon.
 @author: Lingdong Huang
+@tags: ['adventure']
+@addedOn: 2022-10-24
 */
 
 let W = 10;

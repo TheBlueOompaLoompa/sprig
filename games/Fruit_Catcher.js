@@ -1,7 +1,8 @@
 /*
-@title: Fruit_Catcher 
+@title: Fruit_Catcher
+@description: Fruit_Catcher is a game where players control a bowl to catch falling fruits, such as apples and oranges, to score points. The objective is to collect as many fruits as possible in the bowl.
 @author: Navneet Saxena
-@tags: ['catch']
+@tags: []
 @addedOn: 2024-01-16
 */
 

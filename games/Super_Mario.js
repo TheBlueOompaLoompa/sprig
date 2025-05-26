@@ -1,11 +1,12 @@
 /*
+@title: Super_Mario
+@description: Super Mario is a retro-inspired platformer where players navigate through levels, aiming to reach pipes that signify progression to the next stage. Along the way, players can hit mystery boxes to uncover surprises while avoiding enemies and hazards.
+@author: Cosmin
+@tags: ['retro']
+@addedOn: 2024-03-01
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Super_Mario
-@author: Cosmin
-@tags: ['classic']
-@addedOn: 2024-03-01
 */
 
 const player = "p"

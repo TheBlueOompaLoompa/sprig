@@ -1,10 +1,11 @@
 /*
-
 @title: Haunted Office
+@description: "Haunted Office" is a puzzle game where you play as a ghost trying to escape from an office. To succeed, you must find keys and utilize portals to navigate the environment while avoiding moving obstacles like pumpkins.
 @author: Aleyah
 @tags: []
-@img: ""
 @addedOn: 2024-4-20
+
+@img: ""
 */
 
 const win = tune`

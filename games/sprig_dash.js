@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: Sprig Dash
+@description: Sprig Dash is a game where players must continuously jump over obstacles on the ground and in the air. The primary aim is to avoid these obstacles for as long as possible, enhancing your score with each successful avoid. As the game progresses, the difficulty increases with the addition of airborne obstacles.
 @author: akshatk-khurana
 @tags: []
 @addedOn: 2024-08-05
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 const player = "p";

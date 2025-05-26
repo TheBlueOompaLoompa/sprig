@@ -1,7 +1,8 @@
 /*
 @title: CaveGame
+@description: CaveGame is a simple puzzle adventure about navigating through caves, collecting gold, and battling monsters. The game features a series of levels where players must solve puzzles, mine resources, and engage in combat with various creatures to progress. The objective is to explore the depths of the cave, manage resources like health and tools, and ultimately escape with as much gold as possible.
 @author: AlexL
-@tags: ['dungeon']
+@tags: ['adventure']
 @addedOn: 2024-01-22
 
 CONTROLS

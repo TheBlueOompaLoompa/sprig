@@ -1,8 +1,9 @@
 /*
 @title: English Checkers
-@tags: ['classic']
-@addedOn: 2023-01-04
+@description: English Checkers, also known as draughts, is a digital adaptation of the classic board game where players compete to capture all opponent pieces or block their moves. This game features the mandatory jump rule and includes both regular pieces and kings, with kings being able to move in both directions. Players can reset the board and start a new match at any time.
 @author: Oakchris1955
+@tags: ['retro']
+@addedOn: 2023-01-04
 
 This is a port of the english variant of the popular game, checkers, also known as draughts
 The rules can be found here: https://en.wikipedia.org/wiki/English_draughts#Rules

@@ -1,9 +1,10 @@
 /*
-
 @title: Flip a Coin
+@description: "Flip a Coin" is a retro-themed game by Arnav Kumar where players can simulate flipping a coin, with the added twist of hidden Easter eggs throughout the gameplay. The simplicity of pressing a single button to flip the coin invites exploration and surprise. Players can enjoy the nostalgic feel while searching for unexpected elements hidden in the game.
 @author: Arnav Kumar
-@tags: ["coin", "classic"]
+@tags: ['retro']
 @addedOn: 2024-07-24
+
 */
 let background = "b";
 

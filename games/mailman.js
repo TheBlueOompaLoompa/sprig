@@ -1,6 +1,7 @@
 
 /* 
 @title: mailman
+@description: "Mailman" is a game where you take on the role of a mailman tasked with delivering packages to prevent the world from sinking into despair. Navigate through various levels, avoiding obstacles such as badboxes and evilboxes, to reach the conveyor belt where deliveries are made.
 @author: Akko
 @tags: []
 @addedOn: 2023-09-07
@@ -347,19 +348,19 @@ function checkHit() {
 
 
 
-function checkHit() {
-  const badBoxHitbox = tilesWith(BADBOX).length;
-  const evilBoxHitbox = tilesWith(EVILBOX).length;
+// function checkHit() {
+//   const badBoxHitbox = tilesWith(BADBOX).length;
+//   const evilBoxHitbox = tilesWith(EVILBOX).length;
   
-  const badBoxDamage = tilesWith(BADBOX, player).length;
-  const evilBoxDamage = tilesWith(EVILBOX, player).length;
+//   const badBoxDamage = tilesWith(BADBOX, player).length;
+//   const evilBoxDamage = tilesWith(EVILBOX, player).length;
 
-  // Get the current level's map
-  const currentLevelMap = levels[level];
+//   // Get the current level's map
+//   const currentLevelMap = levels[level];
 
-  if (badBoxDamage > 0 || evilBoxDamage > 0) {
-    // You're being hit by either BADBOX or EVILBOX
-    setMap(currentLevelMap); // Reset the current level
-    // console.log("HIT!");
-  }
-}
+//   if (badBoxDamage > 0 || evilBoxDamage > 0) {
+//     // You're being hit by either BADBOX or EVILBOX
+//     setMap(currentLevelMap); // Reset the current level
+//     // console.log("HIT!");
+//   }
+// }

@@ -1,9 +1,10 @@
 /*
 @title: Sokoban Super
+@description: Sokoban Super is a puzzle game that emphasizes improved sprite design while retaining the essence of the original Sokoban gameplay. Players must strategically push boxes onto designated goal spaces across various levels.
 @author: Nimit Vijayvargee
-@tags: ['sokoban-style']
-@img: ""
+@tags: ['puzzle']
 @addedOn: 2024-05-30
+@img: ""
 */
 
 const playerup = "u"

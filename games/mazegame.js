@@ -1,8 +1,9 @@
 
 /* 
 @title: mazegame
+@description: "mazegame" is a puzzle game created by Elian where players navigate a character through a maze. Try to finish all the levels!
 @author: Elian
-@tags: ['sokoban-style']
+@tags: ['puzzle']
 @addedOn: 2023-11-04
 */
 

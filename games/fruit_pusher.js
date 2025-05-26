@@ -1,9 +1,10 @@
 /*
-
 @title: fruit_pusher
+@description: Push the fruits onto the goals in every level to win!
 @author: kirby-b
-@tags: ["puzzle"]
+@tags: ['puzzle']
 @addedOn: 2024-01-15
+
 */
 
 const player = "p"

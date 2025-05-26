@@ -1,11 +1,12 @@
 /*
+@title: 8-Sprig
+@description: 8-Sprig is a puzzle game inspired by the classic 8-puzzle, where players arrange numbered tiles in order. It includes a speedrun mode to challenge personal best times and an endless mode with randomly generated puzzles. The game is adapted for the Sprig platform and features music by FructosePear.
+@author: NoozAbooz
+@tags: ['puzzle','endless']
+@addedOn: 2024-07-04
 8-Sprig is inspired by the popular 8-puzzle game, especially the version inside of https://conicgames.github.io/exponentialidle/. There are some
 new changes and tweaks to accommodate for the Sprig platform. Music by FructosePear.
 
-@title: 8-Sprig
-@author: NoozAbooz
-@tags: ['beginner', 'endless', 'infinite', 'puzzle']
-@addedOn: 2024-07-04
 */
 
 const cursor = "p"

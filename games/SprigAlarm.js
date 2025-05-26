@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: SprigAlarm
+@description: SprigAlarm is an alarm clock where you can set an alarm. When it goes off, you need to memorize a code and enter it to turn the alarm off.
 @author: Manitej Boorgu
 @tags: []
 @addedOn: 2024-03-26
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 /*

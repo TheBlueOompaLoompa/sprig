@@ -1,7 +1,8 @@
 /*
 @title: Chase Escape
+@description: Chase Escape is an action game where you must evade 'Orange Face' to avoid a game over. Navigate your player using directional controls to keep away from the advancing threat. The game features selectable difficulty modes, including Easy, Medium, and Hard, each altering the challenge of staying clear of 'Orange Face'.
 @author: Edward Hsing
-@tags: ["dodge"]
+@tags: ['action']
 @addedOn: 2024-04-15
 */
 const player = "p";

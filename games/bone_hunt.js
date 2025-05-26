@@ -1,11 +1,12 @@
 /*
+@title: bone_hunt
+@description: Bone Hunt is a puzzle game where you play as a dog on a mission to collect all of your bones in each level. Once all bones are collected, you advance to the next level.
+@author: Andrew Cromar
+@tags: ['puzzle']
+@addedOn: 2024-01-15
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: bone_hunt
-@author: Andrew Cromar
-@tags: ["puzzle"]
-@addedOn: 2024-01-15
 */
 
 const player = "p";

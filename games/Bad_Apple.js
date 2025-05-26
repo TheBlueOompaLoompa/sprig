@@ -1,11 +1,12 @@
 /*
+@title: Bad_Apple
+@description: Bad Apple is a visual port of the popular "Bad Apple" video onto the Sprig platform, which is known for its simple and retro aesthetic. The game focuses on displaying a resized version of the video from its original high-resolution format to a smaller scale suitable for Sprig, emphasizing the challenge of playing the video on various devices. Users can select the playback frame rate to experience the video at different speeds, potentially accompanied by some challenges like lag and synchronization with the music.
+@author: Sychamis
+@tags: []
+@addedOn: 2024-01-27
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Bad_Apple
-@author: Sychamis
-@tags: ['advanced']
-@addedOn: 2024-01-27
 */
 
 //I noticed that no one made a bad apple port on sprig yet so I convinced myself I had to do it ;)

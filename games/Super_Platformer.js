@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: Super_Platformer
+@description: Super_Platformer is a fun game where the player navigates through maps filled with obstacles, aiming to reach the flag to complete each level. Players must use strategic movement and sometimes cleverly manipulate boxes to progress. The game emphasizes platforming skills and problem-solving.
 @author: KinjalPriya000
 @tags: []
 @addedOn: 2024-04-11
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 const player = "p";

@@ -1,7 +1,8 @@
 /*
 @title: Maze with coins, traps, enemies
-@author: 123xxgamer 
-@tags: ["maze"]
+@description: "Maze with coins, traps, enemies" by 123xxgamer is a puzzle game where players navigate through a series of mazes. The objective is to collect all coins and reach the goal without encountering moving enemies or traps. The game features seven progressively challenging levels.
+@author: 123xxgamer
+@tags: ['puzzle']
 @addedOn: 2024-07-26
 */
 

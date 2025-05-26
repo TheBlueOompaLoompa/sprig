@@ -1,8 +1,9 @@
 /*
 @title: kindless
-@tags: ['advanced']
-@addedOn: 2022-07-26
+@description: Try to land the rocket on the landing pad across all the levels!
 @author: Ishan (@quackduck)
+@tags: []
+@addedOn: 2022-07-26
 
 This game has WASD controls, can be quite mean, and may or may not have a cheat code.
 

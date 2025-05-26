@@ -1,8 +1,9 @@
 /*
 @title: Car Race
+@description: "Car Race" is a strategy game where you navigate your car around a lawn to collect all the grass and then reach a blue checkpoint to proceed to the next level.
+@author: saumil
 @tags: ['strategy']
 @addedOn: 2024-06-20
-@author: saumil
 
 Collect all green stuff (grass) and go to the blue thing (the destination) 
 */

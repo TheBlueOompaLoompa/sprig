@@ -1,8 +1,9 @@
 
 /* 
 @title: TwinPrimeRockets
+@description: TwinPrimeRockets is a puzzle game about recognizing twin prime numbers, where players determine if two numbers are both prime. The player responds with 'a' if both numbers are prime and 'd' if either one or both are not. The objective is to accurately identify these twin primes to progress and increase your score.
 @author: Pradevel
-@tags: ['thematic-puzzle']
+@tags: ['puzzle']
 @addedOn: 2023-03-21
 */
 

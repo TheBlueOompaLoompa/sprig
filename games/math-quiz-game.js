@@ -1,8 +1,9 @@
 /*
 @title: Math Quiz Game
-@tags: ['math', 'two-players', 'quiz']
-@addedOn: 2024-07-24
+@description: Math Quiz Game is a competitive two-player quiz game where players race to answer random math questions correctly before time runs out. Each player uses specific keys to select their answer, with the goal of reaching the highest score by the end of the rounds.
 @author: Zigao Wang
+@tags: ['utility','multiplayer']
+@addedOn: 2024-07-24
 */
 
 const leftPlayer = "L";

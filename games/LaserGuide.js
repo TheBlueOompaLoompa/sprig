@@ -1,12 +1,13 @@
 /*
+@title: LaserGuide
+@description: LaserGuide is a puzzle-action game where players must rotate mirrors to direct a laser towards a target. The challenge lies in manipulating the mirrors to find the correct path for the laser beam. Players progress through levels by successfully guiding the laser to the goal.
+@author: Extner
+@tags: ['puzzle','action']
+@addedOn: 2024-05-20
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: LaserGuide
-@author: Extner
-@tags: ['laser', 'puzzle']
 @img: ""
-@addedOn: 2024-05-20
 */
 
 const BACKGROUND = "0"

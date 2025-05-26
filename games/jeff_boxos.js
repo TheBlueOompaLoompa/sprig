@@ -1,7 +1,8 @@
 /*
 @title: jeff boxos
+@description: You are Jeff Boxos - and you must complete 27 (soon to be more) challenges to complete the game. You will be faced with obstacles, puzzles, and more (also known as "idfk what else"). The game is approximately 30 minutes or so for a new player.
 @author: snwy
-@tags: ["puzzle"]
+@tags: ['puzzle']
 @addedOn: 2024-04-12
 */
 

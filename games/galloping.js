@@ -1,8 +1,9 @@
 /*
 @title: galloping!
-@tags: ['dodge']
-@addedOn: 2023-05-23
+@description: Play as a horse and try to gallop around the trees for as long as you can! Use powerups to remove trees and reduce the amount of time you need to gallop for to progress through the levels.
 @author: Daniel Cui
+@tags: ['action']
+@addedOn: 2023-05-23
 
 Description:
 A gallant horse is travelling at breakneck speeds! 

@@ -1,9 +1,10 @@
 /*
 @title: blokl the hole
-@tags: ['puzzle']
-@img: ""
-@addedOn: 2024-05-02
+@description: "Blokl the Hole" is a puzzle game where the objective is to find and fill the correct hole to progress through each level. Players navigate the game using directional controls to move towards targets.
 @author:  chase .A
+@tags: ['puzzle']
+@addedOn: 2024-05-02
+@img: ""
 
 
 */

@@ -1,11 +1,12 @@
 /*
+@title: Formula 1
+@description: "Formula 1" is a multiplayer racing game where two players control race cars, Ferrari and Red Bull, competing in a championship across multiple tracks. Players navigate the cars to reach the finish line while avoiding obstacles like pits, birds, and cones. The car with the most wins at the end of the races is crowned the champion.
+@author: Mary
+@tags: ['multiplayer']
+@addedOn: 2024-04-12
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Formula 1
-@author: Mary
-@tags: ["multiplayer"]
-@addedOn: 2024-04-12
 */
 
 const ferrari = "f"

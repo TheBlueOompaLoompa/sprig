@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: 2Psplashflame
+@description: 2Psplashflame is a competitive two-player game where each player must navigate through various levels to reach the exit first. This engaging, level-based challenge tests players' speed and strategic planning.
 @author: Josh Deva
 @tags: []
 @addedOn: 2024-04-19
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 const player1 = "p";

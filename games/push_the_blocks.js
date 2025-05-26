@@ -1,8 +1,9 @@
 /*
 @title: Push the Blocks
-@tags: ['sokoban-style']
-@addedOn: 2022-11-10
+@description: "Push the Blocks" is a puzzle game where the goal is to strategically move green and red boxes onto their corresponding green and red shapes. Navigate through various levels by pushing boxes to the correct positions.
 @author: aidan
+@tags: ['puzzle']
+@addedOn: 2022-11-10
 
 Instructions:
 

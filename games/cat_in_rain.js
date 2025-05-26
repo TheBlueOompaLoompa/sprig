@@ -1,14 +1,14 @@
 
 /* 
 @title: cat_in_rain
+@description: "Cat in Rain" is an action game where you control a cat trying to dodge raindrops using umbrellas. Inspired by "Dodge the Fireball" by Sam Liu, the goal is to avoid getting hit by rain while navigating levels. Players must strategically manage limited resources like shields and avoid obstacles such as walls.
 @author: alxndriab
-@tags: ['dodge']
+@tags: ['action']
 @addedOn: 2023-11-17
 */
 
     /*
 @title cat_in_rain
-@author: alex b
 inspration from dodge_the_fireball by sam liu
 */
 

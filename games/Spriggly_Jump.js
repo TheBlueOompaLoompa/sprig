@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: Spriggly Jump
+@description: Spriggly Jump is a platformer game where you play as Spriggly, aiming to reach the sun by hopping on clouds. Navigate through various levels, focusing on timing and strategy to manage your limited moves while airborne. Discover unique mechanics like "light" clouds as you explore the expanses of the sky.
 @author: GGGalang
 @tags: []
 @addedOn: 2024-06-19
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 const player = "p"

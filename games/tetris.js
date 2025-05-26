@@ -1,8 +1,9 @@
 /*
 @title: tetris
-@tags: ['classic']
-@addedOn: 2022-09-12
+@description: A retro-themed version of Tetris!
 @author: neesh
+@tags: ["endless" , "puzzle" , "retro"]
+@addedOn: 2022-09-12
 */
 
 const rows = 12;

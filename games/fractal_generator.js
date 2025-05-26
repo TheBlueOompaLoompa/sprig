@@ -1,8 +1,9 @@
 /*
 @title: fractal_generator
-@tags: ['sandbox', 'simulation']
-@addedOn: 2023-01-10
+@description: Simulate Mandelbrot fractals! You can zoom in and out to look in more detail.
 @author: Graham Darcey
+@tags: ['sandbox','simulation']
+@addedOn: 2023-01-10
 
 Controls:
   w - Pan up

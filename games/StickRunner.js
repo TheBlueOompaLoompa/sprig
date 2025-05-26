@@ -1,8 +1,9 @@
 
 /* 
 @title: StickRunner
+@description: StickRunner is a game where players control a stick figure attempting to jump over obstacles to achieve the highest score possible. The objective is to time jumps correctly to avoid colliding with trees.
 @author: Shahzeb Wali
-@tags: ['logic']
+@tags: ['puzzle']
 @addedOn: 2023-12-10
 */
 
@@ -282,7 +283,6 @@ hghghghghghghghghghghghghghghg`,
       x: 1,
       y: 5,
     })
-    }
     addText("" + score, { 
       x: 1,
       y: 5,

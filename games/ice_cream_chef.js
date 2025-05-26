@@ -1,11 +1,12 @@
 /*
-Select the correct ingredients to match the ice cream sundae order
-Finish orders to increase your score
-If you run out of time or select the wrong topping you lose a life and have to start the order over
 @title: Ice Cream Chef
+@description: "Ice Cream Chef" is a fast-paced game where players aim to create perfect ice cream sundaes by selecting the correct ingredients to match customer orders. Increase your score by accurately completing orders before time runs out, while avoiding mistakes to maintain your lives.
 @author: sophia
 @tags: []
 @addedOn: 2024-06-24
+Select the correct ingredients to match the ice cream sundae order
+Finish orders to increase your score
+If you run out of time or select the wrong topping you lose a life and have to start the order over
 */
 const cursor = "c";
 const bowl = "b";

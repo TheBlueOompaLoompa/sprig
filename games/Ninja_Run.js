@@ -1,11 +1,12 @@
 /*
+@title: Ninja Run
+@description: Ninja Run is an action game where a ninja must skillfully scale a building while avoiding falling bombs. Players switch lanes to dodge the bombs, with the aim of ascending as high as possible without getting hit. The game combines quick reflexes with strategic lane changes against an increasingly intense barrage of obstacles.
+@author: Acidicts
+@tags: ['action']
+@addedOn: 2024-00-00
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Ninja Run
-@author: Acidicts
-@tags: ["ninja"]
-@addedOn: 2024-00-00
 */
 
 const left_wall = "l"

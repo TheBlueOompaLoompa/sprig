@@ -1,8 +1,9 @@
 /*
 @title: 2 player tic-tac-toe
-@tags: ['classic', 'multiplayer']
-@addedOn: 2022-09-06
+@description: This is a two-player tic-tac-toe game created by reesericci, designed with a retro multiplayer theme. Players take turns placing their pieces on a 3x3 grid using specific key combinations to choose the desired position. The game ends when a player successfully aligns three of their pieces vertically, horizontally, or diagonally, with a message declaring the winner.
 @author: reesericci
+@tags: ['multiplayer','retro']
+@addedOn: 2022-09-06
 
 "a", "s", and "d" are your controls.
 

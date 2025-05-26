@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: Ghosbly: Turn Based Combat
+@description: "Ghosbly: Turn Based Combat" is a game where players fight against five different creatures in strategic, turn-based combat. Players can attack, heal, or dodge based on the creatures' glowing attack indicators to survive each encounter and ultimately win the game.
 @author: SlimeBind
 @tags: []
 @addedOn: 2024-06-24
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 let inputEnabled = true;
 const player = "p"

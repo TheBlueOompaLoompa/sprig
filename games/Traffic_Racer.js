@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: Traffic Racer 2D
+@description: Traffic Racer 2D is a fast-paced racing game where players must navigate an expressway, dodging cars that spawn increasingly quickly. The objective is to travel as far as possible without crashing, while avoiding the grass which will slow you down.
 @author: advaitconty
 @tags: []
 @addedOn: 2024-08-05
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 const player = "p"

@@ -1,7 +1,8 @@
 /*
 @title: OG Space Invaders
+@description: OG Space Invaders is an interpretation of the classic game Space Invaders. Players attempt to defeat waves of alien enemies by shooting them while maneuvering to avoid enemy projectiles.
 @author: Atharva Malik
-@tags: ['space', 'invaders', 'space invaders', 'invader']
+@tags: ['real-time','action']
 @addedOn: 2024-07-11
 
 Controls:

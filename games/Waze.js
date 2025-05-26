@@ -2,9 +2,10 @@
 
 /*
 @title: Waze
-@tags: ['advanced','shooter','zombie']
-@addedOn: 2024-07-17
+@description: "Waze" is a game where you try to survive as long as possible by shooting the oncoming zombies before they attack you. Try to get to the second level and maximize your score!
 @author: DragonRoyal
+@tags: ['action','survival']
+@addedOn: 2024-07-17
 
 INSTRUCTIONS:
 W A S D to move the character around, i to shoot the zombies

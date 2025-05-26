@@ -1,10 +1,11 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
 @title: Poisonous Snake
+@description: "Poisonous Snake" is a twist on the classic Snake game, where players must consume healthy red apples while avoiding poisonous green or brown apples. As players eat more apples, the game speeds up, adding an extra challenge. The objective is to navigate the snake effectively without colliding with its own tail or consuming harmful apples.
 @author: dkim19375
 @tags: []
 @addedOn: 2024-06-23
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
 */
 
 const player = "p"

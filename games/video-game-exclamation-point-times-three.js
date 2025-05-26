@@ -1,9 +1,10 @@
 /*
 @title: video-game-exclamation-point-times-three
+@description: "Video-game-exclamation-point-times-three" is a puzzle game where you guide a smiley face through various levels by pushing blocks and teleporting via portals. The main objective is to solve puzzles to finish each level, progressing from one to the next.
 @author: arc
 @tags: []
-@img: ""
 @addedOn: 2024-05-20
+@img: ""
 */
 
 const player = "p"

@@ -1,8 +1,9 @@
 /*
 @title: Infinite Maze
+@description: Infinite Maze is an endlessly generated maze game where players navigate through randomly created labyrinths.
+@author: pertark
 @tags: ['endless']
 @addedOn: 2022-09-22
-@author: pertark
 */
 
 //INCLUDE

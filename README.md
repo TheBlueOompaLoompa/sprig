@@ -14,7 +14,7 @@ You should be able to get started in Sprig with very little programming experien
 
 ## Sprig is a...
 
-...**custom handheld game console** built by Hack Club. Fall of 2022, we are giving a Sprig (valued at over $100 in components alone) to every teenage hacker that successfully shares a game they create in our [community gallery](https://sprig.hackclub.com/gallery).
+...**custom handheld game console** built by Hack Club. we are giving a Sprig to every teenage hacker that successfully shares a game they create in our [community gallery](https://sprig.hackclub.com/gallery).
 
 <p align="left">
 <a>
@@ -68,7 +68,7 @@ Join the `#sprig` channel on the [Hack Club Slack](https://hackclub.com/slack/) 
 
 - `#sprig-platform`: For discussion of development of the Sprig platform as a whole. 
 - `#sprig-gaming-controller`: Building a case for the Sprig console to make it a portable gaming controller.
-- `#sprig-emulator`: Development of emulator.
+- `#sprig-emulator`: Development of a Gameboy emulator for Sprig.
 - `#sprig-multiplayer`: Development of multiplayer support.
 - `#sprig-lora`: Development of Sprig-Lora communicator.
 - `#sdsprig`: Development of Sprig loading from an SD Card.

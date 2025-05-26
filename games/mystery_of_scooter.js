@@ -1,8 +1,9 @@
 /*
 @title: Mystery of scooter
-@tags: ['WIP']
-@addedOn: 2022-09-08
+@description: Try to find the right house with the clues you're given!
 @author: Lucas
+@tags: []
+@addedOn: 2022-09-08
 */
 
 const player = "p";

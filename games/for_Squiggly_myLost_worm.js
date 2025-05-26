@@ -1,8 +1,9 @@
 
 /* 
 @title: for_Squiggly_myLost_worm
+@description: "For Squiggly: My Lost Worm" is a puzzle game where players navigate a blue worm through various levels to reach a golden crown. The game features inverted controls, adding an extra layer of challenge, and serves as a memorial to the creator's third-grade pet, Squiggly.
 @author: Jeremiah Sung
-@tags: ['sokoban-style']
+@tags: ['puzzle']
 @addedOn: 2023-10-19
 */
 

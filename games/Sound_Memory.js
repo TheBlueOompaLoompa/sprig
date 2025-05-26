@@ -1,13 +1,14 @@
 /*
+@title: Sound Memory
+@description: "Sound Memory" is a memory and music-themed game where players listen to a sequence of tunes and then repeat the sequence by pressing the corresponding keys in the same order. The challenge intensifies as the sequence length increases with each round.
+@author: meronemo
+@tags: ["memory" , "timed" , "music"]
+@addedOn: 2024-07-28
 Sound Memory
 Listen and memorize the order of the sound playing.
 After the tunes are all played, press the key in the same order.
 Red-W, Yellow-A, Green-S, Blue-D
 
-@title: Sound Memory
-@author: meronemo
-@tags: []
-@addedOn: 2024-07-28
 */
 
 const boxa = "a";

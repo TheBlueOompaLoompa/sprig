@@ -1,11 +1,12 @@
 /*
+@title: Treasure_Quest
+@description: Treasure Quest is a puzzle-adventure game where the player navigates through obstacles and solves puzzles to reach hidden treasures while avoiding enemies. The game challenges players to think strategically as they maneuver through the levels, with the objective of collecting treasures without being caught. The theme revolves around exploration, problem-solving, and evasion, creating an engaging and dynamic gameplay experience.
+@author: Albin Thapaliya
+@tags: ['puzzle','adventure']
+@addedOn: 2024-06-18
 // Treasure Quest
 // Navigate through obstacles and puzzles to reach the treasure and beaware of enemy!
 
-@title: Treasure_Quest
-@author: Albin Thapaliya
-@tags: ['adventure', 'puzzle']
-@addedOn: 2024-06-18
 */
 
 const player = "p";

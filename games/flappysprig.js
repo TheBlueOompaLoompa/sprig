@@ -1,8 +1,9 @@
 
 /* 
 @title: flappysprig
+@description: Flappysprig is a version of flappy bird where you play as Sprig. Try to survive as long as you can!
 @author: Spectral
-@tags: ['classic']
+@tags: ['retro']
 @addedOn: 2023-09-10
 */
 

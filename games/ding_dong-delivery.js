@@ -1,7 +1,10 @@
-//@title: ding_dong-delivery
+/*
+@title: ding_dong-delivery
+@description: You are an amazon delivery person and you need to deliver all the packages to the adresses. Push the package through a maze to get it to its destination!
+@author: cott3-github * efe - slack
 @tags: []
 @addedOn: 2023-09-09
-//@author: cott3-github * efe - slack 
+*/
 //controls:
 //wasd to move, j to restart level
 const bell = tune`

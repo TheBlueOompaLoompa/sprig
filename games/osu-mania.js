@@ -1,7 +1,8 @@
 /*
 @title: osu-mania
+@description: A rhythm game based on osu! mania. Hit the keys A,D,J and L to the beat of the song as the notes come down.
 @author: Alex Park
-@tags: ['']
+@tags: []
 @addedOn: 2023-01-01
 */
 

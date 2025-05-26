@@ -1,11 +1,12 @@
 /*
+@title: Miku's_Doors_Galore!
+@description: Miku's Doors Galore! is a puzzle game where you play as Hatsune Miku, navigating through a maze to collect leeks while avoiding hazards like magma and trapdoors. Your goal is to find and use keys to open doors and advance through levels. Be cautious of flipped doors that can send you back to previous levels.
+@author: tqbed
+@tags: ['puzzle']
+@addedOn: 2024-06-22
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Miku's_Doors_Galore!
-@author: tqbed
-@tags: ['beginner', 'simple', 'puzzle', 'maze']
-@addedOn: 2024-06-22
 */
 
 const player = "p";

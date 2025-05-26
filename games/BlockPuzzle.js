@@ -1,12 +1,13 @@
 /*
+@title: BlockPuzzle
+@description: BlockPuzzle is a strategic puzzle game where you aim to reach a portal by pushing blocks, avoiding an enemy, and managing a limited number of moves. Navigate through levels by strategically moving blocks to clear a path to the red portal while ensuring you aren't caught by the enemy or run out of moves. Each level resets if you run out of moves or are caught, challenging players to think several steps ahead.
+@author: Konstantinos Fragkoulis
+@tags: []
+@addedOn: 2024-06-06
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: BlockPuzzle
-@author: Konstantinos Fragkoulis
-@tags: []
 @img: ""
-@addedOn: 2024-06-06
 */
 
 const player = "p"

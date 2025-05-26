@@ -1,8 +1,9 @@
 /*
 @title: Hey Hay Cow
+@description: "Hey Hay Cow" is a maze-based puzzle game where the player helps a cow navigate through various mazes to find its desired hay. Each level presents a different challenge, requiring players to think strategically and solve navigation puzzles. It involves moving the cow through obstacles and sometimes pushing objects out of the way to reach the goal.
 @author: Valeria DA
-@addedOn: 2024-06-27
 @tags: []
+@addedOn: 2024-06-27
 */
 
 // Create a tune:

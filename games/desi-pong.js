@@ -1,8 +1,9 @@
 /*
 @title: Desi-Pong
-@tags: ['classic']
-@addedOn: 2022-09-14
+@description: Desi-Pong is a retro-style pong game developed by Arnob Das, where two players compete to score points by bouncing a ball past their opponent's paddle. Players aim to reach a score of 10 to win the match.
 @author: Arnob Das
+@tags: ['retro']
+@addedOn: 2022-09-14
 */
 
 const player1 = "1";

@@ -1,7 +1,8 @@
 /*
 @title: The Maze
+@description: "The Maze" is a puzzle game where players navigate through increasingly challenging levels filled with obstacles and goals. Players must strategically push boxes to reach the goals while avoiding walls in various difficulties: easy, medium, and hard. The game's objective is to complete all levels by aligning boxes with designated goal spots.
 @author: TRXAlpha
-@tags: ['maze']
+@tags: ['puzzle']
 @addedOn: 2024-07-18
 */
 

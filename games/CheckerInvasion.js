@@ -1,11 +1,12 @@
 /*
-First time? Check out the tutorial game:
-https://sprig.hackclub.com/gallery/getting_started
-
 @title: Checker Invasion
+@description: Checker Invasion is an endless survival game in which you play as a stationary checker trying to defend against enemy checkers. Using a cursor, you must strategically shoot enemy checkers that approach you, preventing them from colliding with your position. Survive as long as possible while keeping track of enemies neutralized and monitoring your remaining health.
 @author: Stefan Lighezan
 @tags: ['endless']
 @addedOn: 2024-07-24
+First time? Check out the tutorial game:
+https://sprig.hackclub.com/gallery/getting_started
+
 */
 
 const redChecker = "r"

@@ -1,8 +1,9 @@
 /*
 @title: fogged
-@tags: ['WIP']
-@addedOn: 2022-08-15
+@description: "Fogged" is a maze exploration game where the map dynamically changes as the player moves around.
 @author: Jay Reddy
+@tags: []
+@addedOn: 2022-08-15
 
 Move around with w, a, s, d
 

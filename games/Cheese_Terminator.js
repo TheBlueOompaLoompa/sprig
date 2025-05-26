@@ -1,7 +1,8 @@
 /*
 @title: Cheese_Terminator
+@description: A port of Cheese Terminator, a puzzle game originally distributed by Microsoft in Poland to survey respondents. In the game, players must push all the cheese wheels onto red dots to complete each level.
 @author: Colin
-@tags: ['sokoban-style']
+@tags: ['puzzle']
 @addedOn: 2024-06-22
 
 This is a port of Microsoft Cheese Terminator, a game that was given to you if you mailed in surveys for microsoft in poland.

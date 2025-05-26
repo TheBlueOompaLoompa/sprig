@@ -1,8 +1,9 @@
 /*
 @title: Stop
-@tags: ['puzzle-npc']
-@addedOn: 2022-12-07
+@description: "Stop" is a puzzle game that challenges players to navigate towards waypoints while the game itself introduces obstacles to hinder your progress.
 @author: wyn-cmd
+@tags: ['puzzle']
+@addedOn: 2022-12-07
 */
 
 

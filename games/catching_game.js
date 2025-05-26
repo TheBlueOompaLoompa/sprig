@@ -1,11 +1,12 @@
 /*
+@title: Catching game
+@description: Try to catch the bananas in your basket as they fall and maximize your score!
+@author: Swastik Bajpai
+@tags: []
+@addedOn: 2024-06-20
 First time? Check out the tutorial game:
 https://sprig.hackclub.com/gallery/getting_started
 
-@title: Catching game
-@author: Swastik Bajpai 
-@tags: []
-@addedOn: 2024-06-20
 */
 
 const player = "p"
