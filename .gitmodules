@@ -1,0 +1,3 @@
+[submodule "firmware/hose/micropython"]
+	path = firmware/hose/micropython
+	url = git@github.com:TheBlueOompaLoompa/micropython.git

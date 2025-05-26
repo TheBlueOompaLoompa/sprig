@@ -1,6 +1,2 @@
-bin/
-lib/
-lib64/
-pyvenv.cfg
+venv/
 build/
-.ampy
